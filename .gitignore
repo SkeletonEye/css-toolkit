@@ -1,0 +1,14 @@
+# .gitignore
+
+# general
+_*
+
+# build files
+build/
+
+# packages
+.sass-cache/
+node_modules/
+
+# OS generated
+.DS_Store

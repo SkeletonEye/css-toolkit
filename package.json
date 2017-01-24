@@ -1,0 +1,26 @@
+{
+  "name": "css-toolkit",
+  "version": "1.0.0",
+  "author": "SkeletonEye",
+  "description": "Collection of most useful CSS components for any project.",
+  "keywords": [
+    "css",
+    "toolkit"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkeletonEye/css-toolkit.git"
+  },
+  "scripts": {
+    "build": "grunt"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0"
+  }
+}
