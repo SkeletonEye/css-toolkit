@@ -1,0 +1,38 @@
+// class for every element containing columns
+.row {
+  display: table;
+  width: 100%;
+}
+
+// classes to define when columns inside a .row should break
+@each $breakpoint, $width in $breakpoints {
+  @media (max-width: $width) {
+    .break-#{$breakpoint} .column {
+      padding: 0;
+      width: 100%;
+    }
+  }
+}
+
+// class for every column
+.column {
+  display: inline-block;
+  float: left;
+  padding-left: round($column-padding / 2);
+  padding-right: round($column-padding / 2);
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+// classes to define the width of a column
+@for $index from 1 through 12 {
+  .width-#{$index} {
+    width: ($index/12 * 100%);
+  }
+}

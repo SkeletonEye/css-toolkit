@@ -1,3 +1,7 @@
 // requirements
 @import "variables.scss";
 @import "mixins/clearfix.scss";
+
+// layout
+@import "layout/container.scss";
+@import "layout/grid.scss";

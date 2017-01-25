@@ -31,3 +31,13 @@ $spacer-3: nth($spacers, 3);
 $spacer-4: nth($spacers, 4);
 $spacer-5: nth($spacers, 5);
 $spacer-6: nth($spacers, 6);
+
+// *** components ***
+
+// ** layout **
+
+// responsive container
+$container-width: 980px !default;
+
+// grid
+$column-padding: $spacer-2 !default;
