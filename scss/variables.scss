@@ -1,0 +1,33 @@
+// *** general use ***
+
+// breakpoints
+$breakpoints: (
+  sm: 544px,
+  md: 768px,
+  lg: 1012px,
+  xl: 1280px
+) !default;
+
+$breakpoint-sm: map-get($breakpoints, "sm");
+$breakpoint-md: map-get($breakpoints, "md");
+$breakpoint-lg: map-get($breakpoints, "lg");
+$breakpoint-xl: map-get($breakpoints, "xl");
+
+// spacers
+$spacer: 8px !default;
+
+$spacers: (
+  round($spacer / 2),
+  $spacer,
+  $spacer * 2,
+  $spacer * 3,
+  $spacer * 4,
+  $spacer * 5
+) !default;
+
+$spacer-1: nth($spacers, 1);
+$spacer-2: nth($spacers, 2);
+$spacer-3: nth($spacers, 3);
+$spacer-4: nth($spacers, 4);
+$spacer-5: nth($spacers, 5);
+$spacer-6: nth($spacers, 6);
