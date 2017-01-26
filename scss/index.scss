@@ -2,6 +2,9 @@
 @import "variables.scss";
 @import "mixins/clearfix.scss";
 
+// base
+@import "base/base.scss";
+
 // layout
 @import "layout/container.scss";
 @import "layout/grid.scss";
