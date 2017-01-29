@@ -1,0 +1,9 @@
+# .npmignore
+
+build/toolkit.css
+test/
+.editorconfig
+.gitignore
+.npmignore
+Gruntfile.js
+package.json
